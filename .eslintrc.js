@@ -34,6 +34,7 @@ module.exports = {
       'error',
       'always'
     ],
-    'quote-props': ['error', 'as-needed']
+    'quote-props': ['error', 'as-needed'],
+    'max-len': ['error', { code: 80 }]
   }
 };
