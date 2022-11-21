@@ -18,22 +18,10 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    indent: [
-      'error',
-      2
-    ],
-    'linebreak-style': [
-      'error',
-      'unix'
-    ],
-    quotes: [
-      'error',
-      'single'
-    ],
-    semi: [
-      'error',
-      'always'
-    ],
+    indent: ['error', 2],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
     'quote-props': ['error', 'as-needed'],
     'max-len': ['error', { code: 80 }]
   }
