@@ -2,6 +2,10 @@
   "name": "nodejs-template",
   "version": "1.0.0",
   "description": "This project is a template for nodejs projects.",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --fix"
+  },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
